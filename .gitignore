@@ -1,0 +1,14 @@
+target
+.classpath
+.project
+.settings
+.checkstyle
+*.swp
+.idea
+*.iml
+logs/
+
+# Intellij
+.idea/
+*.iml
+*.iws
