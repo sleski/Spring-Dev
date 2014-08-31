@@ -16,7 +16,12 @@
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
-	<context-param>
+    <servlet-mapping>
+        <servlet-name>static</servlet-name>
+        <url-pattern>/static/*</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/simple-dispatcher-servlet.xml</param-value>
 	</context-param>
