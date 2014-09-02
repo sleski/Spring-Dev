@@ -21,6 +21,12 @@
         <url-pattern>/static/*</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>static</servlet-name>
+        <servlet-class>it.tostao.blog.servlet.StaticServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
     <context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/simple-dispatcher-servlet.xml</param-value>
